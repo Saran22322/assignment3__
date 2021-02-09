@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>Registraion</title>
+<body style="background-color:LightBlue;">
+<h1>Student Registration Form</h1>
+<img src="https://drive.google.com/thumbnail?id=1ptWg0GnZmnybEHvluvL9LQF1M3sh0mya" alt="NITW">
+<h3>Please fill the below details correctly</h3>
+
+<form action="/action_page.php">
+ <label for="fname"><i>First name:</i></label><br>
+  <input type="text" id="fname"
+  name="fname"><br><br>
+ <label for="lname"><i>Last name:</i></label><br>
+  <input type="text" id="lname"
+  name="lname"><br><br>
+ <label for="email"><i>Student Email ID:</i></label><br>
+  <input type="email" id="email"
+  name="email"><br><br> 
+ <label for="regno"><i>Registation Number:</i></label><br>
+  <input type="text" id="regno"
+  name="regno"><br><br>
+ <label for="rollno"><i>Roll Number:</i></label><br>
+  <input type="text" id="rollno"
+  name="rollno"><br><br>
+ <label for="subjects"><i>Choose the subjects to register from the six....</i></label><br>
+  <select id ="subjects"name="subjects"size="2"multiple>
+  	<option value="dn">Data Networks</option>
+  	<option value="dnl">Data Networks Lab</option>
+  	<option value="dsp">Digital Signal Processing</option>
+  	<option value="erts">Embedded and Real Time Operating Systems</option>
+  	<option value="itd">Information theory and Coding</option>
+  	<option value="csl">Communication Systems Lab</option>
+  </select><br><br>
+ <label for="elec"><i>Choose the Electives to register....</i></label> <br>
+  <select id ="elec"name="elec"size="1">
+    <option value="wt">Web Technologies</option>
+  	<option value="vlsi">LVLSI</option>
+  </select><br><br>
+ <input type="checkbox" id="sure"name="sure"value="yes">
+  <label for="sure">I here by declare that all the details filled above are true </label><br>
+ <input type="checkbox" id="sure1"name="sure1"value="yes1">
+  <label for="sure1">I here by declare to register for the checked subjects </label> <br><br>
+ <input type="submit"value="submit">
+ <input type="reset">
+</form>
+</body>
+</html>
